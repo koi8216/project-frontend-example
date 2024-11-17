@@ -94,7 +94,7 @@ const Page = () => {
     const date = new Date();
     const year = date.getFullYear();
     yearElement.current.textContent = String(year);
-    // yearからString(year)に修正
+    // yearからString(year)に修正(2024111)
   }
 
   const layoutStyle = (tabValue: TabState) => css`
